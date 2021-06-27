@@ -1,0 +1,1 @@
+# Carrellata superficiale sull'informatica
