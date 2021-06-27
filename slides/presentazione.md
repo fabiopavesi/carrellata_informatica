@@ -276,7 +276,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 ---
 
-# Architettura software - 1/
+# Architettura software - 1/2
 
 ## Client-server
 * Client-server
@@ -295,7 +295,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
   
 --- 
 
-# Architettura software - 2/
+# Architettura software - 2/2
 
 ## Web Clients
 
@@ -319,3 +319,10 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 * Server fisico
 * **V**irtual **M**achine
 * Container
+
+---
+
+## QA Time
+
+* Le slide sono disponibili su GitHub: https://github.com/fabiopavesi/carrellata_informatica
+* Contatti: fabio.pavesi at ingv.it
