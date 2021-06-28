@@ -67,8 +67,8 @@ A = {'x': 0, 'y': 0}
 B = {'x': 3, 'y': 8}
 C = {'x': 12, 'y': -5}
 
-AB = sqrt((A['x'] - B['x']) ** 2 + (A['y'] - B['y']) ** 2)
-BC = sqrt((C['x'] - B['x']) ** 2 + (C['y'] - B['y']) ** 2)
+AB = sqrt((A['x'] - B['x']) ** 2 + (A['y'] - B['y']) ** 3)
+BC = sqrt((C['x'] - B['x']) ** 2 + (C['y'] - B['y']) ** 3)
 
 ABC = AB + BC
 ```
@@ -201,11 +201,13 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 ---
 
-# Linguaggi rilevanti nel mondo della ricerca - 1/2
+# Linguaggi rilevanti nel mondo della ricerca - 1/3
 
 ## Python
 
 * Sintassi semplice ed intuitiva per chi non programma di mestiere
+
+* Non fortemente tipizzato
 
 * Adatto per
   * Programmazione strutturata
@@ -213,9 +215,14 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 * Desktop o server
   
+---
+
+# Linguaggi rilevanti nel mondo della ricerca - 2/3
+
 ## Javascript/Typescript
 
 * Sintassi più strutturata, ispirata al C
+* Non tipizzato (Javascript), Tipizzato (Typescript)
 * Adatto per
   * Programmazione strutturata
   * Programmazione ad oggetti (pur essendo, di fatto,  un linguaggio "a prototipi")
@@ -224,7 +231,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 ---
 
-# Linguaggi rilevanti nel mondo della ricerca - 2/2
+# Linguaggi rilevanti nel mondo della ricerca - 3/3
 
 ## HTML
 
@@ -234,6 +241,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 ## PHP
 
 * Linguaggio nato per generare HTML dinamicamente
+* Non fortemente tipizzato
 * Adatto per
   * Programmazione strutturata
   * Programmazione ad oggetti
@@ -247,6 +255,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 * È il linguaggio più vicino alla macchina
     * altissime prestazioni
+* Fortemente tipizzato
 * Adatto per
   * Programmazione strutturata
   * Programmazione ad oggetti
@@ -261,6 +270,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 * Linguaggio ad oggetti puro
   * molto elegante
+* Fortemente tipizzato
 * Adatto per
   * Programmazione ad oggetti
   * Programmazione funzionale
@@ -268,6 +278,7 @@ Della filosofia **unsupervised** fa parte il **reinforcement learning**.
 
 ## NodeJS
 * Javascript lato server
+* Non fortemente tipizzato
 * Adatto per
   * Programmazione strutturata
   * Programmazione ad oggetti (pur essendo, di fatto,  un linguaggio "a prototipi")
